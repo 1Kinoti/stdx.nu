@@ -41,7 +41,7 @@ to use the `Option` type
 `stdx` provides an `Result` type and a number of methods associated
 with it like, `map`, `is-ok`, `bind` among others
 
-> read more about the `Result` type [here][003], [here][004] 
+> read more about the `Result` type [here][003], [here][004],
 > [here][005] and/or [here][006]
 
 to use the `Result` type
