@@ -7,9 +7,9 @@
 ### using `git`
 
 ```nushell
-> git clone https://github.com/1Kinoti/stdx.nu stdx.nu
-> cd stdx.nu
-> cp stdx <your desired location>
+git clone https://github.com/1Kinoti/stdx.nu stdx.nu
+cd stdx.nu
+cp stdx <your desired location>
 
 # to make it globally available, and this to your `config.nu`
 use /path/to/stdx
@@ -30,8 +30,8 @@ of methods associated with it like, `map`, `is-some`, `bind` among others
 
 to use the `Option` type
 ```nushell
-> use /path/to/stdx *
-> Option help
+use /path/to/stdx *
+Option help
 ```
 
 > read more about the `Option` type [here][001] and/or [here][002]
@@ -46,8 +46,8 @@ with it like, `map`, `is-ok`, `bind` among others
 
 to use the `Result` type
 ```nushell
-> use /path/to/stdx *
-> Result help
+use /path/to/stdx *
+Result help
 ```
 
 ### List
@@ -58,8 +58,8 @@ and makes some `core` list function safer by making them return an `Option`
 instead of an error if they fail, for example
 
 ```
-> [] | first       # errors
-> [] | List head   # returns an `Option None`
+[] | first       # errors
+[] | List head   # returns an `Option None`
 ```
 
 ## contributing
