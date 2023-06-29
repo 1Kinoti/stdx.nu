@@ -6,7 +6,7 @@
 
 ### using `git`
 
-```sh
+```nushell
 > git clone https://github.com/1Kinoti/stdx.nu stdx.nu
 > cd stdx.nu
 > cp stdx <your desired location>
@@ -29,7 +29,7 @@ use /path/to/stdx
 of methods associated with it like, `map`, `is-some`, `bind` among others
 
 to use the `Option` type
-```nu
+```nushell
 > use /path/to/stdx *
 > Option help
 ```
@@ -45,7 +45,7 @@ with it like, `map`, `is-ok`, `bind` among others
 > [here][005] and/or [here][006]
 
 to use the `Result` type
-```nu
+```nushell
 > use /path/to/stdx *
 > Result help
 ```
@@ -68,7 +68,7 @@ contributions are welcome!
 
 ### running tests
 
-```
+```nushell
 use stdx/test; test
 ```
 
