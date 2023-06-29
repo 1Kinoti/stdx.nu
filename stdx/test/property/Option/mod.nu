@@ -1,9 +1,7 @@
 # | Test suite for the `Option` type
 
+use std *
 use ../../../src/Option/
-use std [
-    "assert equal"
-]
 
 export def tests [] {
     def mk-test [

@@ -188,7 +188,9 @@ export def init_ [
         if ($x | is-empty) {
            []
         } else {
-            $x | take ($in | length | $in - 1)
+            let len = ($x | length)
+            let len = $len - 1
+            $x | take $len
         }
     }
 }
